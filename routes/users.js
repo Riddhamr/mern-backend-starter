@@ -48,7 +48,7 @@ router.patch("/:id", getUser, async (req, res) => {
     }
 });
 
-// deleteing one
+// deleting one
 router.delete("/:id", getUser, async (req, res) => {
     try {
         await res.user.remove();
